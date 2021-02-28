@@ -1,0 +1,20 @@
+//$primary: #E2D4B7;
+$enable-negative-margins: true;
+@import "style";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  padding: 8px 16px;
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-style: none;
+}

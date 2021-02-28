@@ -1,0 +1,371 @@
+* {
+  font-family: "TTNormsMedium", "TT NORMS", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-main {
+  z-index: 200;
+}
+
+.navbar-space {
+  min-height: 20vh;
+  width: 100%;
+}
+
+#pill-home-first-part {
+  background-image: url("../assets/img/road.jpg");
+  min-height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.imageSlider {
+  height: 300px;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: none;
+}
+
+.slick-current {
+  margin-top: -30px;
+}
+
+.slick-list {
+  padding-top: 50px !important;
+}
+
+/*Search Bar*/
+
+.nav-pills .nav-link.active {
+  background-color: #00aea6;
+}
+
+.nav-pills .nav-link a {
+  color: #ffffff;
+}
+
+#searchForm {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+#searchForm a {
+  color: #595959;
+}
+#searchForm a:hover:not(.active) {
+  color: white;
+  background-color: rgba(0, 174, 166, 0.4);
+  transition: 0.5s;
+}
+#searchForm a.active {
+  color: white;
+}
+
+/*Search Bar end*/
+
+/*Sign up*/
+.whiteBox {
+  background-color: #ffffff;
+}
+.naslovi {
+  font-family: "TTNormsMedium";
+  color: #595959;
+}
+.linijaIspodNaslova {
+  border: 2px solid #00aea6;
+  border-radius: 5px;
+}
+.unosLogin {
+  border: 2px solid #00aea6;
+  border-radius: 20px;
+  color: #00aea6;
+}
+.dugmePrijavi {
+  width: 100%;
+  background-color: #00aea6;
+  border: none;
+  border-radius: 15px;
+}
+.dugmePrijaviFont {
+  font-family: "TTNormsMedium";
+  color: #ffffff;
+}
+
+.ride-station-names .departure-station-name-dark {
+  background: url("../assets/img/icon-connection-top@2x.png") no-repeat 0 4px;
+}
+
+.ride-station-names .arrival-station-name-dark {
+  background: url("../assets/img/icon-connection-bottom@2x.png") no-repeat 0 -6px;
+}
+
+.ride-station-names .departure-station-name-white {
+  background: url("../assets/img/icon-connection-top-white@2x.png") no-repeat 0
+    4px;
+}
+
+.ride-station-names .arrival-station-name-white {
+  background: url("../assets/img/icon-connection-bottom-white@2x.png") no-repeat
+    0 -6px;
+}
+
+.ride-station-names .departure-station-name-dark,
+.ride-station-names .arrival-station-name-white,
+.ride-station-names .departure-station-name-white,
+.ride-station-names .arrival-station-name-dark {
+  background-size: 13px 25px;
+  padding-left: 15px;
+  display: inline;
+}
+
+.ride-station-names .departure-station-name-dark.h4,
+.ride-station-names .arrival-station-name-white.h4,
+.ride-station-names .departure-station-name-white.h4,
+.ride-station-names .arrival-station-name-dark.h4 {
+  background-size: 20px 32px !important;
+  padding-left: 30px !important;
+  display: inline !important;
+}
+
+.ride-station-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/*.station-name.departure-station-name {*/
+/*    padding-bottom: 1px;*/
+/*}*/
+
+/*.ride-station-names {*/
+/*    width: 88%;*/
+/*}*/
+#mainContent {
+  font-family: "TTNorms-Bold";
+  padding-left: 10%;
+  margin-right: 0%;
+}
+#mainDiv {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+hr {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 70%;
+}
+#mainDiv hr {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 20%;
+}
+#mainDiv2 input {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+}
+#mainDiv2 {
+  margin-right: 50%;
+}
+#korpa {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+  font-family: "TTNorms-Bold";
+  margin-bottom: 43%;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+#korpa hr {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainDiv3 p {
+  color: #595959;
+}
+#mainDiv3 input {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+}
+#prizemljebtn {
+  background-color: #00aea6;
+}
+
+#prizemljebtn a:hover {
+  color: white;
+  background-color: rgba(0, 174, 166, 0.4);
+}
+#prizemljebtn a.active {
+  color: white;
+}
+.no-padding {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+#dodatniPrtljag {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75%;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 6%;
+  background-color: white;
+}
+.otkazibtn {
+  border: 2px solid #00aea6;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .datepicker-kada::-webkit-input-placeholder {
+    background-image: url("../assets/img/calendar-dark.png");
+  }
+
+  .input-autocomplete::-webkit-input-placeholder {
+    background-image: url("../assets/img/maps-and-flags.png");
+  }
+}
+
+@media (min-width: 576px) {
+  .input-autocomplete::-webkit-input-placeholder {
+    background-image: url("../assets/img/pin.png");
+    color: white;
+  }
+
+  .datepicker-polazak-dolazak::-webkit-input-placeholder {
+    background-image: url("../assets/img/down-arrow.png");
+    color: white;
+  }
+}
+
+.easy-autocomplete {
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 50px;
+  background-position: left;
+  background-position-x: 15px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+/*:-moz-placeholder { !* Firefox 18- *!*/
+/*    padding-left: 50px;*/
+/*}*/
+
+/*::-moz-placeholder {  !* Firefox 19+ *!*/
+/*    padding-left: 50px;*/
+/*}*/
+
+/*:-ms-input-placeholder {*/
+/*    padding-left: 50px;*/
+/*}*/
+#footer {
+  background-image: url("../assets/img/footer.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+input[disabled]:hover,
+select[disabled]:hover {
+  cursor: not-allowed;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #f26c4f;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkbox-container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
